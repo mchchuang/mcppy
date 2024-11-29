@@ -5,7 +5,7 @@ Created on Tue Oct  1 21:31:06 2019
 @author: Eric
 """
 
-from pyncraft.minecraft import Minecraft
+from mcppy.minecraft import Minecraft
 mc = Minecraft.create(address="192.168.1.239",port = 4721)
 
 while True:

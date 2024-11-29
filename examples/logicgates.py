@@ -1,4 +1,4 @@
-import pyncraft.minecraft as minecraft
+import mcppy.minecraft as minecraft
 import ipdb
 
 ''' 

@@ -1,5 +1,5 @@
-from pyncraft.minecraft import Minecraft
-from pyncraft.vec3 import Vec3
+from mcppy.minecraft import Minecraft
+from mcppy.vec3 import Vec3
 import stltovoxel
 import time, math, os, random
 import ipdb
@@ -89,7 +89,7 @@ def render_stl(mc,stlfile,maxsize=25,maxx=None,maxy=None,maxz=None,xpos=0,ypos=5
    return ( np.max(xyz[:,0])-np.min(xyz[:,0]), np.max(xyz[:,1])-np.min(xyz[:,1]), np.max(xyz[:,2])-np.min(xyz[:,2]) )
 
 # when a sign won't cut it, write it in blocks!
-message = "welcome to pyncraft"
+message = "welcome to mcppy"
 
 charwidth = 10
 charheight = 10

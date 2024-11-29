@@ -209,11 +209,11 @@ class Minecraft:
 
         self.camera = CmdCamera(connection)
         self.entity = CmdEntity(connection)
-        self.cmdplayer = CmdPlayer(connection,playerId)
+        self.cmdplayer = CmdPlayer(connection, playerId)
 
         # not sure why mcpi_e did this, but it doesn't work with empty playerIds
         #self.player = CmdPlayerEntity(connection,playerId)
-        self.player = CmdPlayer(connection,playerId)
+        self.player = CmdPlayer(connection, playerId)
 
         self.events = CmdEvents(connection)
         self.playerId = playerId

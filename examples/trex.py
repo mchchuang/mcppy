@@ -1,5 +1,5 @@
-from pyncraft.minecraft import Minecraft
-from pyncraft.vec3 import Vec3
+from mcppy.minecraft import Minecraft
+from mcppy.vec3 import Vec3
 import stltovoxel
 import time, math, os, random
 import ipdb

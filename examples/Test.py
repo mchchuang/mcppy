@@ -2,9 +2,9 @@
 #www.stuffaboutcode.com
 #FruitJuice Tests
 
-import pyncraft.minecraft as minecraft
-import pyncraft.block as block
-import pyncraft.entity as entity
+import mcppy.minecraft as minecraft
+import mcppy.block as block
+import mcppy.entity as entity
 import time, math, csv, os
 import numpy as np
 import ipdb

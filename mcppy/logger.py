@@ -1,4 +1,4 @@
-import pyncraft.settings as settings
+import mcppy.settings as settings
 
 class BColors:
     

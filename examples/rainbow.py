@@ -1,4 +1,4 @@
-from pyncraft.minecraft import Minecraft
+from mcppy.minecraft import Minecraft
 import time, math
 
 mc = Minecraft.create(address="192.168.1.239", port=4711, playerName='.saranova8124')

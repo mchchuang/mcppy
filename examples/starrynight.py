@@ -5,7 +5,7 @@ minecraft based on the time/location specified.
 
 NOTE: The distances/brightnesses are not to scale. 
 
-NOTE 2: astroquery is not a pyncraft dependency, but required here. 
+NOTE 2: astroquery is not a mcppy dependency, but required here. 
 You must install astroquery separately:
 
 pip install astroquery
@@ -23,8 +23,8 @@ from astropy.coordinates import Angle
 import math
 import ipdb
 
-# pyncraft connection
-import pyncraft.minecraft as minecraft
+# mcppy connection
+import mcppy.minecraft as minecraft
 mc = minecraft.Minecraft.create()
 
 # radius and center of the celestial sphere

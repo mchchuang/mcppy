@@ -5,7 +5,7 @@ Created on Wed Oct  2 22:32:11 2019
 @author: Eric
 """
 
-from pyncraft.minecraft import Minecraft
+from mcppy.minecraft import Minecraft
 mc = Minecraft.create(address="192.168.1.239",port = 4721)
 
 # Get player position

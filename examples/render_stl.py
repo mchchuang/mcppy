@@ -1,4 +1,4 @@
-from pyncraft.minecraft import Minecraft
+from mcppy.minecraft import Minecraft
 import stltovoxel
 import time, math, os, random
 import ipdb
